@@ -42,7 +42,9 @@ const sendMessage = async (message) => {
   messagesContainer.appendChild(loadingtextElement);
 
   async function makePostRequest(msg) {
-    const url = 'www.example.com';  // Make a POST request to this url
+    // Make a POST request to this url
+    const url = 'https://astaylor140-5000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/chatbot'; 
+     
     const requestBody = {
       prompt: msg
     };
